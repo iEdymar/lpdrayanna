@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400&display=swap');
 
 html, body {
     font-family: 'Shippori Mincho', sans-serif;
@@ -17,7 +18,6 @@ header {
     position: fixed; /* Fixa a navbar no topo ao rolar a página */
     top: 0px;
     z-index: 1000; /* Garante que a navbar fique acima de outros elementos */
-    border-radius: 24px;
 }
 
 nav {
@@ -35,7 +35,7 @@ nav {
 }
 
 .nav-links li a{
-    color: #004E64;
+    color: #3A3C15;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9em;
@@ -282,12 +282,14 @@ nav ul li:first-child a {
 
 
 .card-list .card-link .card-title {
+    font-family: "Alexandria", serif; 
+    font-style: light;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 1rem;
-    color: #000;
-    font-weight: 600;
+    color: #3A3C15;
+    font-weight: 100;
 }
 
 .card-wrapper .swiper-pagination-bullet {
@@ -307,7 +309,11 @@ nav ul li:first-child a {
 
 @media screen and (max-width: 768px){
     .card-wrapper {
-        margin: 0 24px 0px;
+        margin: 0 0px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     .card-wrapper .swiper-slide-button {
@@ -318,7 +324,7 @@ nav ul li:first-child a {
 
 #depoimentos {
     padding: 50px 20px;
-    background-color: #F8B84E;
+    background-color: #004E64;
     text-align: center;
 }
 
@@ -365,7 +371,7 @@ h2 {
 .depoimento-autor {
     text-align: center;
     justify-content: space-around;
-    font-weight: bold;
+    font-weight: regular;
     color: #333;
     margin-top: 150px;
 }
@@ -383,7 +389,7 @@ h2 {
 
 #produtos {
     padding: 50px 20px;
-    background-color: #ffffff;
+    background-color: #F5E8C7;;
 }
 
 .produtos-content {
@@ -401,21 +407,22 @@ h2 {
     align-items: center;
     flex-direction: column;
     justify-content: center; /* Centraliza o texto verticalmente */
-    background-color: #f9f9f9; /* Opcional: fundo para visualizar o espaço */
+    background-color: #F5E8C7;; /* Opcional: fundo para visualizar o espaço */
     padding: 20px; /* Adiciona um espaçamento interno */
     border-radius: 10px; /* Borda arredondada para combinar com os cards */
+    border: 2px solid #3A3C15;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para combinar com os cards */
 }
 
 .texto-coluna-prd h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #333;
+    color: #3A3C15;
 }
 
 .texto-coluna-prd p {
     font-size: 1.5em;
-    color: #555;
+    color: #3A3C15;
     line-height: 1.6; /* Melhora a legibilidade do texto */
 }
 
@@ -427,23 +434,23 @@ h2 {
 }
 
 .produto-card {
-    background-color: #f9f9f9;
+    background-color: #F5E8C7;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 2px solid #F8B84E;
+    box-shadow: 0 4px 8px #3A3C15;
+    border: 2px solid #3A3C15;
     padding: 20px;
     text-align: left;
 }
 
 .produto-card h3 {
     font-size: 1.5em;
-    color: #222;
+    color: #3A3C15;
     margin-bottom: 15px;
 }
 
 .produto-card p {
     font-size: 1em;
-    color: #555;
+    color: #3A3C15;
 }
 
 /* Responsividade para telas menores */
