@@ -113,7 +113,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700; /* Cor dourada ao passar o mouse */
+    color: #F8B84E; /* Cor dourada ao passar o mouse */
 }
 
 /* Estilo para o logo */
@@ -144,7 +144,7 @@ nav ul li:first-child a {
 
 .hero-content h1 {
     font-size: 2.5em;
-    color: rgb(65, 65, 65); /* Cor do texto para contrastar com o background */
+    color: #3A3C15; /* Cor do texto para contrastar com o background */
 }
 
 .highlight {
@@ -154,7 +154,7 @@ nav ul li:first-child a {
 
 .hero-content p {
     font-size: 1.2em;
-    color: #656565; /* Cor clara para o texto */
+    color: #3A3C15; /* Cor clara para o texto */
     margin-top: 20px;
 }
 
@@ -171,7 +171,7 @@ nav ul li:first-child a {
 }
 
 .btn:hover {
-    background-color: #e65a50; /* Cor do botão ao passar o mouse */
+    background-color: #004E64; /* Cor do botão ao passar o mouse */
 }
 
 .hero-image {
@@ -200,6 +200,7 @@ nav ul li:first-child a {
         height: auto; /* Remove altura fixa */
         text-align: center; /* Centraliza o conteúdo */
         padding: 40px 20px;
+        margin-top: 40px;
     }
 
     .hero-content {
@@ -209,10 +210,12 @@ nav ul li:first-child a {
 
     .hero-content h1 {
         font-size: 0.9em;
+        margin-right: 40px;
     }
 
     .hero-content p {
         font-size: 0.8em;
+        margin-right: 40px;
     }
 
     .hero-image {
@@ -221,7 +224,8 @@ nav ul li:first-child a {
         margin-top: 20px;
     }
     .btn {
-        padding: 5px 5px;
+        padding: 10px 5px;
+        
     }
 }
 
@@ -436,7 +440,7 @@ h2 {
 .produto-card {
     background-color: #F5E8C7;
     border-radius: 10px;
-    box-shadow: 0 4px 8px #3A3C15;
+    box-shadow: 0 1px 1px #3A3C15;
     border: 2px solid #3A3C15;
     padding: 20px;
     text-align: left;
