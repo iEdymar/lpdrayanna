@@ -129,7 +129,7 @@ nav ul li:first-child a {
     align-items: center;
     justify-content: space-around;
     padding: 50px;
-    background-image: url('img/bginicio.svg'); /* Adicione o caminho do seu background */
+    background-image: url('img/bginc.svg'); /* Adicione o caminho do seu background */
     background-size: cover; /* Garante que o background cubra toda a seção */
     background-position: center; /* Centraliza o background */
     background-repeat: no-repeat; /* Evita repetição do background */
@@ -428,7 +428,6 @@ h2 {
     background-color: #D4AF37;; /* Opcional: fundo para visualizar o espaço */
     padding: 20px; /* Adiciona um espaçamento interno */
     border-radius: 10px; /* Borda arredondada para combinar com os cards */
-    border: 2px solid #3A3C15;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para combinar com os cards */
 }
 
@@ -459,7 +458,6 @@ h2 {
     background-color: #004E64;
     border-radius: 10px;
     box-shadow: 0 1px 1px #3A3C15;
-    border: 2px solid #3A3C15;
     padding: 20px;
     text-align: left;
 }
