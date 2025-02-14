@@ -35,6 +35,8 @@ nav {
 }
 
 .nav-links li a{
+    font-family: "Alexandria", serif;
+    font-weight: 400;
     color: #3A3C15;
     text-decoration: none;
     font-weight: bold;
@@ -144,28 +146,31 @@ nav ul li:first-child a {
 
 .hero-content h1 {
     font-size: 2.5em;
+    line-height: 45px;
     color: #3A3C15; /* Cor do texto para contrastar com o background */
 }
 
 .highlight {
     color: #D4AF37; /* Cor dourada para destacar palavras */
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .hero-content p {
-    font-size: 1.2em;
+    font-family: "Alexandria", serif; 
+    font-weight: 100;
     color: #3A3C15; /* Cor clara para o texto */
     margin-top: 20px;
 }
 
 .btn {
+    font-family: "Alexandria", serif; 
+    font-weight: 500;
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #D4AF37;
     color: white;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 24px;
     transition: background-color 0.7s ease;
 }
@@ -230,6 +235,10 @@ nav ul li:first-child a {
 }
 
 /* Serviços */
+.container{
+    background-color: #F5E8C7;
+}
+
 .card-wrapper {
     max-width: 100%;
     margin: 0 60px 35px;
@@ -245,7 +254,7 @@ nav ul li:first-child a {
     user-select: none;
     width: 400px;
     display: block;
-    background: #fff;
+    background: #004E64;
     padding: 18px;
     border-radius: 12px;
     text-decoration: none;
@@ -259,7 +268,8 @@ nav ul li:first-child a {
 }
 
 .card-list .card-item .card-link:hover{
-    border-color: #F8B84E;
+    border: 3.5px solid #F8B84E;
+    transform: scale(1.1);
 }
 
 .card-list .card-link .card-image{
@@ -270,12 +280,11 @@ nav ul li:first-child a {
 }
 
 .card-list .card-link .badge {
-    color: #F8B84E;
+    color: #F5E8C7;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    padding: 8px 30px;
+    align-items: flex-start;
+    padding: 8px 0px;
     font-size: 2em;
     font-weight: 500;
     margin: 16px 0 18px;
@@ -292,7 +301,7 @@ nav ul li:first-child a {
     flex-direction: column;
     align-items: center;
     font-size: 1rem;
-    color: #3A3C15;
+    color: #F5E8C7;
     font-weight: 100;
 }
 
@@ -300,7 +309,7 @@ nav ul li:first-child a {
     height: 13px;
     width: 13px;
     opacity: 0.5s;
-    background: #f8c169;
+    background: #3A3C15;
 }
 
 .card-wrapper .swiper-pagination-bullet-active{
@@ -308,7 +317,7 @@ nav ul li:first-child a {
 }
 
 .card-wrapper .swiper-slide-button{
-    color: #F8B84E;
+    color: #3A3C15;
 }
 
 @media screen and (max-width: 768px){
@@ -327,18 +336,21 @@ nav ul li:first-child a {
 
 
 #depoimentos {
-    padding: 50px 20px;
+    padding: 50px 40px;
     background-color: #004E64;
+    justify-content: center;
     text-align: center;
+    min-height: 550px;
 }
 
 h2 {
-    color: white;
+    font-size: 2em;
+    color: #F5E8C7;
 }
 
 .depoimentos-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
     overflow: hidden; /* Para esconder os cards que não estão visíveis */
@@ -347,13 +359,15 @@ h2 {
 }
 
 .depoimento-card {
-    background-color: #fff;
+    background-color: #F5E8C7;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 30%; /* Ajuste para exibir 3 cards por vez */
     margin-bottom: 20px;
     display: none; /* Inicialmente, todos os cards estão escondidos */
+    min-height: 300px;
+    max-height: 300px;
 }
 
 .stars {
@@ -367,17 +381,18 @@ h2 {
 }
 
 .depoimento-texto {
-    font-style: italic;
-    font-size: 1em;
-    color: #555;
+    font-family: "Alexandria", serif;
+    font-weight: 300;
+    color: #3A3C15;
 }
 
 .depoimento-autor {
     text-align: center;
+    text-decoration: double;
     justify-content: space-around;
-    font-weight: regular;
-    color: #333;
-    margin-top: 150px;
+    color: #3A3C15;
+    margin-top: 90px;
+    max-height: 10px;
 }
 
 @media (max-width: 768px) {
