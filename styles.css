@@ -490,18 +490,19 @@ h2 {
 }
 
 #sobre-dra {
-    padding: 50px 20px;
+    padding: 10px; 
     background-color: #F5E8C7;
-    background-image: url('img/background-2.webp');
-    background-size: contain; /* Ajusta a imagem ao container sem cortar */
+    background-image: url('img/ultmbg.svg');
+    background-size: cover; /* Faz o background ocupar todo o container */
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh; /* Garante que a seção não fique maior que a tela */
+    min-height: 1500px; /* Mantém a altura mínima igual à altura da tela */
+    width: 100%; /* Garante que a largura ocupe todo o espaço */
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-}
+}   
 
 .sobre-content {
     display: flex;
@@ -528,20 +529,22 @@ h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    flex: 2;
+    flex: 1;
     max-width: 60%;
 }
 
 .texto-coluna h2 {
     font-size: 4vw; /* Responsivo */
-    margin-bottom: 20px;
+    margin-top: -590px;
+    margin-right: 20px;
     color: #F8B84E;
 }
 
 .texto-coluna p {
     font-size: 2vw; /* Ajusta conforme a tela */
+    margin-top: 0px;
     color: #F8B84E;
-    line-height: 1.6;
+    line-height: 1em;
     margin-bottom: 30px;
 }
 
@@ -558,7 +561,7 @@ h2 {
 
     .texto-coluna h2 {
         font-size: 5vw; /* Maior para telas pequenas */
-        margin: 0px 50;
+        margin: 0px 0;
         margin-left: 200px;
     }
 
@@ -635,8 +638,10 @@ h2 {
 .faq-item.ativo .seta {
     transform: rotate(180deg); /* Gira a seta para cima */
 }
+
+
 #rodape {
-    background-color: #333; /* Cor de fundo escura */
+    background-color: #3A3C15; /* Cor de fundo escura */
     color: #fff;
     padding: 40px 20px;
 }
@@ -657,19 +662,17 @@ h2 {
 }
 
 .logo-copyright .logo {
-    width: 150px; /* Ajuste conforme o tamanho da logo */
+    width: 300px; 
     margin-bottom: 15px;
 }
 
 .logo-copyright .copyright {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     font-size: 1.3em;
-    color: #cccccc52;
+    color: #F5E8C7;
 }
-
-
 
 .redes-sociais {
     flex: 1;
@@ -679,8 +682,8 @@ h2 {
 .redes-sociais h3 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    color: #F8B84E;
+    align-items: flex-start;
+    color: #F5E8C7;
     font-size: 1.3em;
     margin-bottom: 15px;
 }
@@ -688,7 +691,8 @@ h2 {
 .icones-redes {
     display: flex;
     flex-direction: column; /* Ícones um abaixo do outro */
-    align-items: center;
+    align-items: flex-start;
+    color: #F8B84E;
     gap: 10px; /* Espaço entre os ícones */
 }
 
@@ -704,19 +708,20 @@ h2 {
 .localizacao {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     flex: 1;
     min-width: 200px;
 }
 
 .localizacao h3 {
+    color: #F5E8C7;
     font-size: 1.2em;
     margin-bottom: 4px;
 }
 
 .localizacao p {
     font-size: 0.9em;
-    color: #ccc;
+    color: #F5E8C7;
     margin-bottom: 4px;
 }
 
@@ -725,8 +730,8 @@ h2 {
 }
 
 .btn-agendar {
-    background-color: #F8B84E; /* Cor do botão */
-    color: #fff;
+    background-color: #D4AF37; /* Cor do botão */
+    color: #F5E8C7;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -735,7 +740,7 @@ h2 {
 }
 
 .btn-agendar:hover {
-    background-color: #e65a50; /* Cor do botão ao passar o mouse */
+    background-color: #004E64; /* Cor do botão ao passar o mouse */
 }
 
 /* Responsividade para telas menores */
