@@ -45,7 +45,8 @@ nav {
     transition: color 0.3s ease;
 }
 .nav-links li a:hover {
-    color: #ffd700;
+    color: #004E64;
+    transform: scale(1.07);
 }
 
 .nav-links li:first-child a {
