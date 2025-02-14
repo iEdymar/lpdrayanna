@@ -388,7 +388,6 @@ h2 {
 
 .depoimento-autor {
     text-align: center;
-    text-decoration: double;
     justify-content: space-around;
     color: #3A3C15;
     margin-top: 90px;
@@ -426,7 +425,7 @@ h2 {
     align-items: center;
     flex-direction: column;
     justify-content: center; /* Centraliza o texto verticalmente */
-    background-color: #F5E8C7;; /* Opcional: fundo para visualizar o espaço */
+    background-color: #D4AF37;; /* Opcional: fundo para visualizar o espaço */
     padding: 20px; /* Adiciona um espaçamento interno */
     border-radius: 10px; /* Borda arredondada para combinar com os cards */
     border: 2px solid #3A3C15;
@@ -434,14 +433,18 @@ h2 {
 }
 
 .texto-coluna-prd h2 {
+    margin-left: 20px;
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #3A3C15;
+    color: #004E64;
 }
 
 .texto-coluna-prd p {
+    margin-left: 20px;
+    font-family: "Alexandria", serif;
+    font-weight: 100;
     font-size: 1.5em;
-    color: #3A3C15;
+    color: #004E64;
     line-height: 1.6; /* Melhora a legibilidade do texto */
 }
 
@@ -453,7 +456,7 @@ h2 {
 }
 
 .produto-card {
-    background-color: #F5E8C7;
+    background-color: #004E64;
     border-radius: 10px;
     box-shadow: 0 1px 1px #3A3C15;
     border: 2px solid #3A3C15;
@@ -462,14 +465,17 @@ h2 {
 }
 
 .produto-card h3 {
+    margin-left: 4px;
     font-size: 1.5em;
-    color: #3A3C15;
+    color: #F5E8C7;
     margin-bottom: 15px;
 }
 
 .produto-card p {
-    font-size: 1em;
-    color: #3A3C15;
+    font-family: "Alexandria", serif;
+    font-weight: 100;
+    margin-left: 4px;
+    color: #F5E8C7;
 }
 
 /* Responsividade para telas menores */
@@ -485,7 +491,7 @@ h2 {
 
 #sobre-dra {
     padding: 50px 20px;
-    background-color: #f9f9f9;
+    background-color: #F5E8C7;
     background-image: url('img/background-2.webp');
     background-size: contain; /* Ajusta a imagem ao container sem cortar */
     background-position: center;
@@ -565,14 +571,14 @@ h2 {
 
 #faq {
     padding: 50px 20px;
-    background-color: #ffffff;
+    background-color: #F5E8C7;
     text-align: center;
 }
 
 #faq h2 {
     font-size: 2em;
     margin-bottom: 40px;
-    color: #F8B84E; /* Cor do título */
+    color: #3A3C15; /* Cor do título */
 }
 
 .faq-container {
@@ -581,7 +587,7 @@ h2 {
 }
 
 .faq-item {
-    border-bottom: 1px solid #ddd; /* Linha divisória entre os itens */
+    border-bottom: 1px solid #3A3C15; /* Linha divisória entre os itens */
 }
 
 .faq-pergunta {
@@ -594,13 +600,13 @@ h2 {
 
 .faq-pergunta h3 {
     font-size: 1.2em;
-    color: #F8B84E; /* Cor do texto da pergunta */
+    color: #3A3C15; /* Cor do texto da pergunta */
     margin: 0;
 }
 
 .faq-pergunta .seta {
     font-size: 1.2em;
-    color: #F8B84E; /* Cor da seta */
+    color: #3A3C15; /* Cor da seta */
     transition: transform 0.3s ease; /* Animação da seta */
 }
 
@@ -609,12 +615,13 @@ h2 {
     overflow: hidden;
     transition: max-height 0.3s ease; /* Animação de abertura */
     padding: 0 20px;
-    border-left: 8px solid #F8B84E; /* Linha à esquerda da resposta */
+    border-left: 8px solid #3A3C15; /* Linha à esquerda da resposta */
     margin-left: 10px; /* Espaço entre a linha e o texto */
 }
 
 .faq-resposta p {
-    font-size: 1.2em;
+    font-family: "Alexandria", serif;
+    font-weight: 300;
     color: #22222298; /* Cor do texto da resposta */
     line-height: 1.6;
     margin: 15px 0;
